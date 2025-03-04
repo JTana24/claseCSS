@@ -2,8 +2,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif; /* Puedes cambiar la tipografía */
+    background: url('../imagenes/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white; /* Para que el texto sea más visible sobre la imagen */
 }
 
 /* Estilización del menú */
@@ -22,12 +25,20 @@ body {
 }
 
 .menu > li > a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 15px 20px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
     transition: background 0.3s ease;
+}
+
+/* Íconos en el menú */
+.menu i {
+    margin-right: 8px;
+    font-size: 18px;
 }
 
 /* Efecto hover en los elementos principales */
@@ -60,7 +71,8 @@ body {
 }
 
 .menu ul li a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 12px 15px;
     color: #fff;
     text-decoration: none;

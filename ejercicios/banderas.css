@@ -1,0 +1,60 @@
+div {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+.colombia {
+    background-image: linear-gradient(yellow 50%, blue 50%, blue 75%, red 75%);
+}
+
+.francia {
+    background-image: linear-gradient(90deg, red 33%, white 33%, white 66.66%, blue 66.66%);
+}
+
+.italia {
+    background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.alemania {
+    background-image: linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
+    color: #fff;
+}
+
+.japon {
+    background-image: radial-gradient(circle at center, red 30%, white 30%);
+}
+
+.polonia {
+    background-image: linear-gradient(white 50%, red 50%);
+}
+
+/* Nuevas banderas */
+.pakistan {
+    background-image: linear-gradient(90deg, white 25%, green 25%);
+}
+
+.cuba {
+    background-image: linear-gradient(white 20%, blue 20%, blue 40%, white 40%, white 60%, blue 60%, blue 80%, white 80%);
+}
+
+.puerto-rico {
+    background-image: linear-gradient(white 20%, red 20%, red 40%, white 40%, white 60%, red 60%, red 80%, white 80%);
+}
+
+.panama {
+    background-image: linear-gradient(white 50%, white 50%, red 50%);
+}
+
+.corea {
+    background-image: radial-gradient(circle, red 50%, blue 50%);
+    background-color: white;
+}
+
+/* Finlandia */
+.finlandia {
+    background-image: linear-gradient(white 75%, blue 75%, blue 85%, white 85%),
+                      linear-gradient(90deg, white 40%, blue 40%, blue 60%, white 60%);
+}
